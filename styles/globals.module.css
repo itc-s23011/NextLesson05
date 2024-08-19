@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center; /* 横方向に中央揃え */
+    align-items: center; /* 縦方向に中央揃え */
+    height: 100vh; /* ビューポートの高さを100%に設定 */
+    background-color: #f0f0f0; /* 背景色を淡い灰色に設定 */
+}
+
+.elevator {
+    text-align: center; /* テキストを中央に揃え */
+    padding: 20px;
+    border: 1px solid #ccc; /* 薄い灰色の境界線 */
+    border-radius: 8px; /* 角を丸くする */
+    background-color: #fff; /* 背景色を白に設定 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 軽い影を追加 */
+    position: relative; /* 相対位置に設定して、アニメーションの位置を調整 */
+}
+
+
